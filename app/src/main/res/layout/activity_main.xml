@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yunnao_20181013161335"
+    tools:context="MainActivity">
+
+    <Button
+        android:id="@+id/updata"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/updata_20181016153009"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/updata"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/classroom"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/roundButton3"
+            android:layout_alignStart="@+id/roundButton3"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/class_20181016152957"
+            />
+
+        <Button
+            android:id="@+id/read"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/roundButton4"
+            android:layout_alignStart="@+id/roundButton4"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/reads_20181016152922"
+           />
+
+        <Button
+            android:id="@+id/extend"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/roundButton4"
+            android:layout_alignStart="@+id/roundButton4"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/kuozhang_20181016152944"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="57dp"
+        android:background="@drawable/tuichu_20181016153017"
+       />
+
+
+</RelativeLayout>

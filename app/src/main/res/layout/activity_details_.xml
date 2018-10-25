@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yuannao_20181013151306"
+    android:orientation="horizontal"
+    tools:context="com.dayu.view.Details_Activity">
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="7.5"
+        android:orientation="vertical"
+       >
+
+        <TextView
+            android:id="@+id/biaoti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:background="#fff"
+            android:text="题目：丑小鸭 字数 0 速度：200字/分钟"
+            android:textColor="#0099cc"
+            android:textSize="24sp" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/ll_view"
+            android:background="@drawable/ba">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:textSize="24sp" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/start_read"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/start"
+            android:gravity="center"
+             />
+
+        <Button
+            android:id="@+id/times"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/yunano_20181016"
+            android:gravity="center"
+            android:text="00:00:00"
+            android:layout_marginTop="15dp"
+            android:textSize="24sp"
+
+             />
+
+        <Button
+            android:id="@+id/read_sudu"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/read_20181016141115"
+            android:gravity="center"
+
+
+            />
+
+        <Button
+            android:id="@+id/set_but"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/set_20181016141305"
+
+
+             />
+
+        <Button
+            android:id="@+id/catalog"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fanhui_150_20181016111123"
+            android:gravity="center"
+
+             />
+    </LinearLayout>
+</LinearLayout>

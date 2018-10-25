@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/right_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"></android.support.v7.widget.RecyclerView>
+    <!--<Button
+        android:id="@+id/bt_main"
+        android:background="#ff0"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="根据条目改变内容"
+        android:layout_centerInParent="true"/>-->
+</LinearLayout>

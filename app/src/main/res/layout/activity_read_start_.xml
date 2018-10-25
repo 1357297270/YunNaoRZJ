@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dayu.view.ReadStart_Activity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            android:background="@drawable/shape"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:id="@+id/read_start_but"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束"
+            android:background="@drawable/shape"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/read_stop_but"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="00:00:00"
+            android:textColor="#fff"
+            android:background="@drawable/shape"
+            android:textSize="24sp"
+            android:id="@+id/read_time_but"/>
+
+        <Button
+            android:id="@+id/read_tuichu_but"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="退出"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:layout_marginLeft="405dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+      <!--  <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#0f0">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/text_title"
+               android:text="我为人你们清楚，从来不说谎。只是说话有点直，请你们可以理解。从不坑自家人，只会坑我自己。"/>
+
+
+        </ScrollView>-->
+<com.dayu.page.PageWidget
+    android:id="@+id/main_pageWidget"
+    android:layout_width="700dp"
+    android:layout_height="420dp"
+    android:layout_centerInParent="true"></com.dayu.page.PageWidget>
+    </LinearLayout>
+
+
+</LinearLayout>
